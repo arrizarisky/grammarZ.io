@@ -1,0 +1,42 @@
+* {
+    font-family: verdana !important;
+}
+
+:root {
+    --bg-goldenrod : goldenrod;
+}
+
+.bg-goldenrod {
+    background-color: var(--bg-goldenrod);
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid grey;
+    transition: all 0.7s;
+}
+
+.logo {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.sa {
+    color: white;
+}
+
+img .bright {
+   filter: brightness(4); 
+}
